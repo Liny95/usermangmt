@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dff0d8; /* pastel green */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+button {
+  background-color: #5a8f65;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #4b7a56;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.user-list li {
+  background: #eef6ee;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 6px;
+}
